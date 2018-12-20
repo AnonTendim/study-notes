@@ -19,7 +19,10 @@ From brain to computer science
 	- treat the output of the logistic as the probability of a decision
 	- $z = b+\sum_{i} x_iw_i$
 	- $\Pr(s=1) = \frac{1}{1+e^{-z}}$
+
+# Lecture 1.4 A simple example of learning
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjQ3NDIxNiwxOTI1MDc2NjA3LC0yMD
+eyJoaXN0b3J5IjpbLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMD
 g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
