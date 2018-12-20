@@ -14,8 +14,9 @@ From brain to computer science
 	- linear above 0, 0 below 0
 - Sigmoid neurons
 	- $z = b+\sum_{i} x_iw_i$
-	- $$
+	- $y = \frac{1}{1+e^{-z}}$
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNjk2MTgzLDE5MjUwNzY2MDcsLTIwOD
-g3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
+eyJoaXN0b3J5IjpbLTE1MDQ1NzkwMzksMTkyNTA3NjYwNywtMj
+A4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
 -->
