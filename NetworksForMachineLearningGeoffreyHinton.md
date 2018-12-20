@@ -7,8 +7,10 @@ From brain to computer science
 	- y: output
 	- b: bias
 - Binary threshold neurons (McCulloch-Pitts 1943)
-	- $y = \textbf{1}[b+\sum_{i=1}x_iw_i\geq 1]$
+	- $y = \textbf{1}[b+\sum_{i=1}x_iw_i\geq 0]$
+- Rectified Linear Neurons (linear threshold neurons)
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjgzNTUzOCwxOTI1MDc2NjA3LC0yMD
+eyJoaXN0b3J5IjpbLTI0MjU4MTc2NiwxOTI1MDc2NjA3LC0yMD
 g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
