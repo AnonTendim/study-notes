@@ -5,7 +5,10 @@ From brain to computer science
 - Linear neurons	
 	- $y = b + \sum_{i=1} x_iw_i$
 	- y: output
+	- b: bias
+- Binary threshold neurons (McCulloch-Pitts 1943)
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTkwOTgyNCwxOTI1MDc2NjA3LC0yMD
+eyJoaXN0b3J5IjpbMTk3OTgyNTc5NywxOTI1MDc2NjA3LC0yMD
 g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
