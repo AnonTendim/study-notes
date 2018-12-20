@@ -17,8 +17,9 @@ From brain to computer science
 	- $y = \frac{1}{1+e^{-z}}$
 - Stochastic binary neurons
 	- treat the output of the logistic as the probability of a decision
-	- 
+	- $z = b+\sum_{i} x_iw_i$
+	- $\Pr(s=1) = \frac{1}{1+e^{-z}}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg3Mzc1MDEsMTkyNTA3NjYwNywtMj
-A4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbMTM1NjQ3NDIxNiwxOTI1MDc2NjA3LC0yMD
+g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
