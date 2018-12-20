@@ -15,8 +15,10 @@ From brain to computer science
 - Sigmoid neurons
 	- $z = b+\sum_{i} x_iw_i$
 	- $y = \frac{1}{1+e^{-z}}$
+- Stochastic binary neurons
+	- treat the output of the logistic as the probability of a decision
 	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ1NzkwMzksMTkyNTA3NjYwNywtMj
+eyJoaXN0b3J5IjpbLTE0Mzg3Mzc1MDEsMTkyNTA3NjYwNywtMj
 A4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
 -->
