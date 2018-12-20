@@ -9,8 +9,8 @@ From brain to computer science
 - Binary threshold neurons (McCulloch-Pitts 1943)
 	- $y = \textbf{1}[b+\sum_{i=1}x_iw_i\geq 0]$
 - Rectified Linear Neurons (linear threshold neurons)
-	- $y=\begin{cases}b+\sum_{}\end{cases}$
+	- $y=\begin{cases}b+\sum_{i} x_iw_i & b+\sum_{i} x_iw_i\geq 0\\ 0 & \text{otherwise}\end{cases}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM4MzM2OTMsMTkyNTA3NjYwNywtMj
-A4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbLTkyMjQ3NTMwMiwxOTI1MDc2NjA3LC0yMD
+g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
