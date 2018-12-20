@@ -8,9 +8,14 @@ From brain to computer science
 	- b: bias
 - Binary threshold neurons (McCulloch-Pitts 1943)
 	- $y = \textbf{1}[b+\sum_{i=1}x_iw_i\geq 0]$
+	- 1 above 0, 0 below 0
 - Rectified Linear Neurons (linear threshold neurons)
 	- $y=\begin{cases}b+\sum_{i} x_iw_i & b+\sum_{i} x_iw_i\geq 0\\ 0 & \text{otherwise}\end{cases}$
+	- linear above 0, 0 below 0
+- Sigmoid neurons
+	- $z = b+\sum_{i} x_iw_i$
+	- $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjQ3NTMwMiwxOTI1MDc2NjA3LC0yMD
-g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbOTgwNjk2MTgzLDE5MjUwNzY2MDcsLTIwOD
+g3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 -->
