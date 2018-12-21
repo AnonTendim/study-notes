@@ -62,12 +62,14 @@ The standard paradigm for statistical pattern recognition
 2. Learn how to weight each of the feature activations to get a single scalar quantity
 3. if this quantity is above some threshold, decide that the input vector is a positive example of the target class
 
-The stand
+The standard Perceptron architecture
+#insert
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMzMjczMDMsMTkzMTE2OTE4NSw3OT
-Q2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAz
-MjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLT
-E5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5MjUw
-NzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
+eyJoaXN0b3J5IjpbNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0Nj
+Q3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1
+LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOT
+AyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2
+NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
