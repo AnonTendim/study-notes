@@ -66,14 +66,15 @@ The standard Perceptron architecture
 #insert
 
 How to learn biases b?
-We can just learn them like normal weights. We treat them as weights on the first feature that always has a value of 1.
+- We can just learn them like normal weights. We treat them as weights on the first feature that always has a value of 1.
+- Bias is like negative threshold, so we can ignore threshold.
 #insert
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjc3ODc0LDUyNjc3MjQ2OSwxOTMxMT
-Y5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYs
-MjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMz
-k1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMz
-NTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV
-19
+eyJoaXN0b3J5IjpbMTI0MTczMDkyMSw1MjY3NzI0NjksMTkzMT
+E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
+LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MT
+M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
+MzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0Nj
+ldfQ==
 -->
