@@ -57,21 +57,24 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.2 Perceptrons: The first generation of neural networks
 
-The standard paradigm for statistical pattern recognition
+## The standard paradigm for statistical pattern recognition
 1. Convert the raw input vector into a vector of feature activations
 2. Learn how to weight each of the feature activations to get a single scalar quantity
 3. if this quantity is above some threshold, decide that the input vector is a positive example of the target class
 
-The standard Perceptron architecture
+## The standard Perceptron architecture
 #insert
 
-How to learn biases b?
+## How to learn biases b?
+#insert
 - We can just learn them like normal weights. We treat them as weights on the first feature that always has a value of 1.
 - Bias is like negative threshold, so we can ignore threshold.
-#insert
+
+## The Perceptron convergence procedure: Training binary output neurons as classifiers
+- If the output unit is corret, leave its weights alone.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTczMDkyMSw1MjY3NzI0NjksMTkzMT
+eyJoaXN0b3J5IjpbMTQxMDA3MTgwNCw1MjY3NzI0NjksMTkzMT
 E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
 LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MT
 M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
