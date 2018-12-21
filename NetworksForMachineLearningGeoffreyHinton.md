@@ -65,11 +65,15 @@ The standard paradigm for statistical pattern recognition
 The standard Perceptron architecture
 #insert
 
+How to learn biases b?
+We can just learn them like normal weights. We treat them as weights on the first feature that always has a value of 1.
+#insert
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0Nj
-Q3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1
-LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOT
-AyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2
-NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbOTIzNjc3ODc0LDUyNjc3MjQ2OSwxOTMxMT
+Y5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYs
+MjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMz
+k1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMz
+NTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV
+19
 -->
