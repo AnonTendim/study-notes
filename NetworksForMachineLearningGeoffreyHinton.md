@@ -23,9 +23,15 @@ From brain to computer science
 # Lecture 1.4 A simple example of learning
 A neural network with two layers of neurons and a single winner in the top layer is equivalent to having a rigid template for each shape.
 
-# Lecture 1.5 
+# Lecture 1.5 Three types of learning
+- supervised learning
+	- regression
+	- classification
+- reinforcement learning
+- unsupervised learning
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDM4MTE0NCwtMTc3MDAzMzUyLDE5Mj
+eyJoaXN0b3J5IjpbMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5Mj
 UwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 -->
