@@ -38,7 +38,7 @@ A neural network with two layers of neurons and a single winner in the top layer
 - unsupervised learning
 	- create an internal representation of the input that is useful for the subsequent supervised or reinforcement learning
 	- provide a compact, low--dimensional representation of the input
-	- provide an economical high-dimensional representation of the input in terms of learned features
+	- provide an economical high-dimensional representation of the input in terms of learned features![enter image description here](https://drive.google.com/drive/u/0/folders/18KRmkDlTifFNv8u8bHBpS7eI1I0Dxe6X)
 	- find sensible clusters in the input 
 
 # Lecture 2.1 An overview of the main types of neural network architecture
@@ -46,7 +46,8 @@ A neural network with two layers of neurons and a single winner in the top layer
 - feed-forward neural networks (commonest type of neural network in practice)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjkxODA5NSwtODEzOTU5NTczLC0xOT
-AyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2
-NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTgxMzM2NjUyMywxNDI2OTE4MDk1LC04MT
+M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
+MzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0Nj
+ldfQ==
 -->
