@@ -28,13 +28,16 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- regression
 	- classification
 	- start by choosing a model-class
-	- minimize discrepancy between the target output and the actual output: 
+	- minimize discrepancy between the target output and the actual output
+		- for regression, $\frac{1}{2}(y-h(x))^2$
+		- for classification, several measures
 - reinforcement learning
+	- the output is an action or sequence of actions and the only supervisory signal is an occasional sclar
 - unsupervised learning
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzE0OTQxNiwxOTEwNDI3Mzc3LC0xNz
+eyJoaXN0b3J5IjpbLTMyMjQ2Mzk2NiwxOTEwNDI3Mzc3LC0xNz
 cwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2
 NDQ2OV19
 -->
