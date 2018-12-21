@@ -37,11 +37,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- it is difficult because rewards are delayed and do not supply much information 
 - unsupervised learning
 	- create an internal representation of the input that is useful for the subsequent supervised or reinforcement learning
-	- 
+	- provide a compact, low--dimensional representation of the input
+	- provide an economical high-dimensional representation of the input in terms of learned features
+	- find sensible clusters in the input 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTAwODU0NSwtODEzOTU5NTczLC0xOT
+eyJoaXN0b3J5IjpbLTI3MTkxNjIyOSwtODEzOTU5NTczLC0xOT
 AyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2
 NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
