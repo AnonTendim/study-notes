@@ -57,13 +57,17 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.2 Perceptrons: The first generation of neural networks
 
-standard paradigm for statistical pattern recognition
-1.
+The standard paradigm for statistical pattern recognition
+1. Convert the raw input vector into a vector of feature activations
+2. Learn how to weight each of the feature activations to get a single scalar quantity
+3. if this quantity is above some threshold, decide that the input vector is a positive example of the target class
+
+The stand
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTM4NjY3NywxOTMxMTY5MTg1LDc5ND
-Y0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMy
-NSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMT
-kwMjQ5NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3
-NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbLTE2NTMzMjczMDMsMTkzMTE2OTE4NSw3OT
+Q2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAz
+MjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLT
+E5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5MjUw
+NzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 -->
