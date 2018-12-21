@@ -27,11 +27,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 - supervised learning
 	- regression
 	- classification
+	- start by choosing a model-class
 - reinforcement learning
 - unsupervised learning
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5Mj
-UwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
+eyJoaXN0b3J5IjpbMTM0NTQyNzA2NCwxOTEwNDI3Mzc3LC0xNz
+cwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2
+NDQ2OV19
 -->
