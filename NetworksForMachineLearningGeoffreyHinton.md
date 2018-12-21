@@ -45,9 +45,11 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 - feed-forward neural networks (commonest type of neural network in practice)
 ![feed-forward neural networks](https://lh3.googleusercontent.com/QIY0sh8Y_Ijok0JXDGmfll1zTf9_JU6a7Y4eQoCI_al4hPRAv7bSyOgKj5BbBoB3DhtwclI5OcHw)
-	- if there is more than one hidden layer, it is a deep neural networks.
+	- if there is more than one hidden layer, it is a deep neural networks
+- Recurrent netowrks
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDA0ODY1MiwyMDc0MTMwMzI1LDE0Mj
+eyJoaXN0b3J5IjpbLTY0MjI4OTYzMSwyMDc0MTMwMzI1LDE0Mj
 Y5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3
 NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC
 0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
