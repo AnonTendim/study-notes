@@ -32,12 +32,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 		- for regression, $\frac{1}{2}(y-h(x))^2$
 		- for classification, several measures
 - reinforcement learning
-	- the output is an action or sequence of actions and the only supervisory signal is an occasional sclar
+	- the output is an action or sequence of actions and the only supervisory signal is an occasional scalar reward
+	- the goal in selecting each action is to maximize the expected sum of the future rewards 
 - unsupervised learning
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjQ2Mzk2NiwxOTEwNDI3Mzc3LC0xNz
+eyJoaXN0b3J5IjpbMTAyMzU0NjExMywxOTEwNDI3Mzc3LC0xNz
 cwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2
 NDQ2OV19
 -->
