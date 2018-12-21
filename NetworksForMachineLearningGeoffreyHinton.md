@@ -21,8 +21,9 @@ From brain to computer science
 	- $\Pr(s=1) = \frac{1}{1+e^{-z}}$
 
 # Lecture 1.4 A simple example of learning
+A neural
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMD
-g4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTI3OTcxMjEwNCwtMTc3MDAzMzUyLDE5Mj
+UwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 -->
