@@ -71,13 +71,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 - Bias is like negative threshold, so we can ignore threshold.
 
 ## The Perceptron convergence procedure: Training binary output neurons as classifiers
-- If the output unit is corret, leave its weights alone.
-
+- If the output unit is correct, leave its weights alone.
+- If the output unit incorrectly outputs a zero, add the input vector to the weight vector
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDA3MTgwNCw1MjY3NzI0NjksMTkzMT
-E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
-LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MT
-M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
-MzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0Nj
-ldfQ==
+eyJoaXN0b3J5IjpbMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMT
+Y5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYs
+MjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMz
+k1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMz
+NTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV
+19
 -->
