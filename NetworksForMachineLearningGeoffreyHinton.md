@@ -47,10 +47,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 ![feed-forward neural networks](https://lh3.googleusercontent.com/QIY0sh8Y_Ijok0JXDGmfll1zTf9_JU6a7Y4eQoCI_al4hPRAv7bSyOgKj5BbBoB3DhtwclI5OcHw)
 	- if there is more than one hidden layer, it is a deep neural networks
 - Recurrent netowrks
-- ![enter image description here](https://lh3.googleusercontent.com/uNrVxJ28ZXkw3ehN3YN2xvXOcHPo-OJ-SRefLHf0mOADViBeq9lZgBpiTDjyiK6xrVXQtstME5cS "recurrent networks")
+- ![recurrent networks](https://lh3.googleusercontent.com/uNrVxJ28ZXkw3ehN3YN2xvXOcHPo-OJ-SRefLHf0mOADViBeq9lZgBpiTDjyiK6xrVXQtstME5cS "recurrent networks")
+	- directed cycles in the graph
+	- can sometimes get back to where you started by following the arrows
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0Mj
-Y5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3
-NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC
-0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTE5ODAxMjcwMTUsLTkyOTIzODM4NiwyMD
+c0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5
+NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1Mi
+wxOTI1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+
 -->
