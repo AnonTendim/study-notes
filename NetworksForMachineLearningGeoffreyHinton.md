@@ -44,10 +44,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 # Lecture 2.1 An overview of the main types of neural network architecture
 
 - feed-forward neural networks (commonest type of neural network in practice)
-- ![enter image description here](https://drive.google.com/file/d/1-g5bbecQmsxrA9-v6QURo5Tn_MaVDvay/view?usp=sharing)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzQ2ODc2MSwxNDI2OTE4MDk1LC04MT
-M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
-MzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0Nj
-ldfQ==
+eyJoaXN0b3J5IjpbMTQyNjkxODA5NSwtOTI3NDY4NzYxLDE0Mj
+Y5MTgwOTUsLTgxMzk1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3
+Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMi
+wtMTc0MzQ2NDQ2OV19
 -->
