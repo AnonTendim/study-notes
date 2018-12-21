@@ -50,14 +50,17 @@ A neural network with two layers of neurons and a single winner in the top layer
 ![recurrent networks](https://lh3.googleusercontent.com/uNrVxJ28ZXkw3ehN3YN2xvXOcHPo-OJ-SRefLHf0mOADViBeq9lZgBpiTDjyiK6xrVXQtstME5cS "recurrent networks")
 	- directed cycles in the graph
 	- can sometimes get back to where you started by following the arrows
-	- a very natural way to model sequential data: equivalent to very deep nets with one hidden layer per time slice except the same weights at every time slice are used and they get input at every time slice
+	- a very natural way to model sequential data: equivalent to very deep nets with one hidden layer per time slice except the same weights at every time slice are used and they get input at every time slice![enter image description here](https://lh3.googleusercontent.com/g5X8WTlRRc8j6QuXcJvn0vq_ot9Av7JxO_dQLBmuogYiGoDnKEen5UOx1CR3rPWtFwUaeox1qTu1)
 	- has the ability to remember information in their hidden state for a long time
 - symmetrically connected networks
 	- like recurrent networks, but the connections between units are symmetrical (have the same weight in both directions)
+
+# Lecture 2.2 Perceptrons: The first generation of neural networks
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIyMDc2OTYsNzk0NjQ3NDIxLDE2Mz
-I0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgw
-OTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LD
-E5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMDg4
-NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMj
+Q0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5
+NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2MTYsMT
+kxMDQyNzM3NywtMTc3MDAzMzUyLDE5MjUwNzY2MDcsLTIwODg3
+NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 -->
