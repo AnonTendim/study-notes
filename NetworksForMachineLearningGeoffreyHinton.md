@@ -37,9 +37,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- it is difficult because rewards are delayed and do not supply much information 
 - unsupervised learning
 - 
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMT
-c3MDAzMzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0
-NjQ0NjldfQ==
+eyJoaXN0b3J5IjpbLTgxMzk1OTU3MywtMTkwMjQ5NzYxNiwxOT
+EwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0
+NjYxMiwtMTc0MzQ2NDQ2OV19
 -->
