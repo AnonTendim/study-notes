@@ -28,12 +28,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- regression
 	- classification
 	- start by choosing a model-class
+	- minimize discrepancy between the target output and the actual output: 
 - reinforcement learning
 - unsupervised learning
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTQyNzA2NCwxOTEwNDI3Mzc3LC0xNz
+eyJoaXN0b3J5IjpbMTc3NzE0OTQxNiwxOTEwNDI3Mzc3LC0xNz
 cwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2
 NDQ2OV19
 -->
