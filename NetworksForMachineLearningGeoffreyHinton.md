@@ -50,10 +50,11 @@ A neural network with two layers of neurons and a single winner in the top layer
 - ![recurrent networks](https://lh3.googleusercontent.com/uNrVxJ28ZXkw3ehN3YN2xvXOcHPo-OJ-SRefLHf0mOADViBeq9lZgBpiTDjyiK6xrVXQtstME5cS "recurrent networks")
 	- directed cycles in the graph
 	- can sometimes get back to where you started by following the arrows
+	- a very natural way to model sequential data: equivalent to very deep nets with one hidden layer per time slice
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAxMjcwMTUsLTkyOTIzODM4NiwyMD
-c0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5
-NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1Mi
-wxOTI1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbMTgyNDIyNzgwOCwtOTI5MjM4Mzg2LDIwNz
+QxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1
+NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLD
+E5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
 
 -->
