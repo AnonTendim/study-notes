@@ -52,10 +52,12 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- can sometimes get back to where you started by following the arrows
 	- a very natural way to model sequential data: equivalent to very deep nets with one hidden layer per time slice except the same weights at every time slice are used and they get input at every time slice
 	- has the ability to remember information in their hidden state for a long time
+- symmetrically connected networks
+	- like recurrent networks, but the connections between units are symmetrical (have the same weight in both directions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNz
-QxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1
-NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLD
-E5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
-
+eyJoaXN0b3J5IjpbNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
+IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
+MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLT
+E3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQz
+NDY0NDY5XX0=
 -->
