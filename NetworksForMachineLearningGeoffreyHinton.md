@@ -33,12 +33,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 		- for classification, several measures
 - reinforcement learning
 	- the output is an action or sequence of actions and the only supervisory signal is an occasional scalar reward
-	- the goal in selecting each action is to maximize the expected sum of the future rewards 
+	- the goal in selecting each action is to maximize the expected sum of the future rewards
+	- it is difficult because rewards are delayed and do not supply much information 
 - unsupervised learning
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzU0NjExMywxOTEwNDI3Mzc3LC0xNz
-cwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2
-NDQ2OV19
+eyJoaXN0b3J5IjpbLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMT
+c3MDAzMzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0
+NjQ0NjldfQ==
 -->
