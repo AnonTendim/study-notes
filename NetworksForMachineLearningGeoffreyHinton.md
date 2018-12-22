@@ -82,10 +82,9 @@ A neural network with two layers of neurons and a single winner in the top layer
 [insert]
 - has one dimension per weight
 - A point in the space represents a particular setting of all the weights (points <-> weight vectors)
-- each training case is a hyperplane that passes through the origin in white space (training case <-> hyperplane
-- )
+- each training case is a hyperplane that passes through the origin in white space (training case <-> hyperplane )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5NjQ2MDI5LC0xMjQ0MTA4MTI5LDIyNT
+eyJoaXN0b3J5IjpbMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNT
 cwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEs
 MTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNj
 kxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2
