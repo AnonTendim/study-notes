@@ -72,12 +72,12 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 ## The Perceptron convergence procedure: Training binary output neurons as classifiers
 - If the output unit is correct, leave its weights alone.
-- If the output unit incorrectly outputs a zero, add the input vector to the weight vector
+- If the output unit incorrectly outputs a zero, add the input vector to the weight vector 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMT
-Y5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYs
-MjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMz
-k1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMz
-NTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV
-19
+eyJoaXN0b3J5IjpbODM1Nzc4NDkyLDIyNTcwMjI2NCw1MjY3Nz
+I0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwt
+OTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3ND
+Y4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3
+NywtMTc3MDAzMzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLT
+E3NDM0NjQ0NjldfQ==
 -->
