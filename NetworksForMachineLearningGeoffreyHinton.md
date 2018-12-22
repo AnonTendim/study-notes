@@ -127,13 +127,15 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 3.3 Learning the weights of a logistic output neuron
 logistic neurons
-: $z = b+\sum_i x_iw_i, y = \frac{1}{1+e^{-z}}$
+: $z = b+\sum_i x_iw_i$
+: $y = \frac{1}{1+e^{-z}}$
+: $\frac{\partial y}{\partial w_i} = \frac{\partial z}{\partial w_i}\frac{dy}{dz} = x_iy(1-y)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTEzMjM5NzQsMTExNjgwMDA5NiwtMT
-U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
-MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
-QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
-LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3ND
-EzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3
-M119
+eyJoaXN0b3J5IjpbMTU0OTQ0MzUyMywtMTA1MTMyMzk3NCwxMT
+E2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2
+OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3Nz
+E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
+LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
+IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
+MV19
 -->
