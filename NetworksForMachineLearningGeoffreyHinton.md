@@ -106,9 +106,11 @@ A neural network with two layers of neurons and a single winner in the top layer
  - The perceptron learning procedure cannot be generalized to hidden layers as multi-layer neural networks do not use the perceptron learning procedure
  - A new way can show that a learning procedure makes progress: instead of showing the weights get closer to a good set of weights, show that the actual output values get closer to the target values
  - Example: Linear neurons with squared error measure
-	 - 
+	 - $y = \sum_i w_i x_i$
+	 - Randomly initialize $w_i$'s
+	 - Residual error = $()$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzExMTA5MjcsMjY2MDU2OTAsLTEyNT
+eyJoaXN0b3J5IjpbLTIwMTE3NTQ4NjEsMjY2MDU2OTAsLTEyNT
 IyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1
 LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2Nz
 cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAs
