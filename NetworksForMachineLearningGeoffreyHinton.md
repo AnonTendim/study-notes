@@ -147,13 +147,14 @@ Want to automate the loop of designing features for a particular task and seeing
 
 # Lecture 3.5 How to use the derivatives computed by the backpropagation algorithm
 - Optimization issues: How do we use the error derivatives on individual cases to discover a good set of weights?
-- Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training?
+	- 
+- Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NT
-A1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0
-LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNj
-YwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3
-NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNT
-cwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjFd
+eyJoaXN0b3J5IjpbMzcyMTMzMzkwLC01OTEwNTg4NzcsNDQwMD
+M0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIs
+MTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNT
+YzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkz
+LDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0ND
+EwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODVd
 fQ==
 -->
