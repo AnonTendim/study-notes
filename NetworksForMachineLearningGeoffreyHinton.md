@@ -140,13 +140,13 @@ Want to automate the loop of designing features for a particular task and seeing
 - (the best way) to backpropagate: we use error derivatives w.r.t. hidden activities 
 	- first, convert eh discrepancy between each output and its target value into an error derivative
 	- then compute error derivatives in each hidden layer from error derivatives in the layer above
-	- $\frac{\partial E}{\partial w_{ij}} = \frac{\partial E}{\parital z_j}\frac{\partial z_j}{\partial y_i} = \frac{}{}$
+	- $\frac{\partial E}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}\frac{\partial z_j}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}y_i = \frac{}{}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE1NjI1ODAsLTY5NTUwNTU1LDExNz
-U3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMy
-Mzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLT
-EyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4Mzcx
-ODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNT
-I2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQy
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTk3Mzg1NDU2MCwtNjk1NTA1NTUsMTE3NT
+c5MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIz
+OTc0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMT
+I1MjI1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4
+OTUsMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1Mj
+Y3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIw
+MF19
 -->
