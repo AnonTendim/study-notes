@@ -150,13 +150,14 @@ Want to automate the loop of designing features for a particular task and seeing
 	- How often to update the weights?
 		- online: after each training case
 		- full batch: after a full sweep through the training data
+		- mini-batch: after a small sample of training cases
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNzIwNTI2LC01OTEwNTg4NzcsNDQwMD
-M0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIs
-MTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNT
-YzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkz
-LDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0ND
-EwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODVd
-fQ==
+eyJoaXN0b3J5IjpbOTU2MTIwNTcsLTU5MTA1ODg3Nyw0NDAwMz
+Q1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwx
+MjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1Nj
+M1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMs
+MjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MT
+A4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NV19
+
 -->
