@@ -144,12 +144,15 @@ Want to automate the loop of designing features for a particular task and seeing
 		- $y_j$ is the output of unit j, $z_j$ is the total input received by unit j
 		- $\frac{\partial E}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}\frac{\partial z_j}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}y_i = \frac{\partial E}{\partial y_j}\frac{\partial y_j}{\partial z_j}y_i = \frac{\partial E}{\partial y_j}y_j(1-y_j)y_i$
 		- $\frac{\partial E}{\partial y_i} = \sum_j \frac{\partial E}{\partial z_j}\frac{dz_j}{dy_i}=\sum_j \frac{\partial E}{\partial z_j}w_{ij} = \sum_j \frac{\partial E}{\partial y_j}\frac{\partial y_j}{\partial z_j}w_{ij} = \sum_j \frac{\partial E}{\partial y_j}y_j(1-y_j)w_{ij}$
+
+# Lecture 3.5 How to use the derivatives computed by the backpropagation algorithm
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3OT
-A4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMzk3
-NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNT
-IyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1
-LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2Nz
-cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDBd
-fQ==
+eyJoaXN0b3J5IjpbNDQ3OTQyMTYsNDQwMDM0NTcsLTY5NTUwNT
+U1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwt
+MTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MD
+U2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUs
+MzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MD
+IyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxXX0=
+
 -->
