@@ -103,9 +103,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 - Neural networks are only going to be really powerful if we can learn the feature detectors. It's not enough to just learn weights of feature detectors, we have to learn feature detectors themselves ( hidden units, multiple layers of adaptive, non-linear hidden units).
 
 # Lecture 3.1 Learning the weights of a linear neuron
- 
+ - The perceptron learning procedure cannot be generalized to hidden layers as multi-layer neural networks do not use the perceptron learning procedure
+ - A new way 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTQ4MDMzNCwtMTI1MjI1MjY5OCw5MD
+eyJoaXN0b3J5IjpbLTMyNDQwNjQ4MSwtMTI1MjI1MjY5OCw5MD
 c4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0
 LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMT
 E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
