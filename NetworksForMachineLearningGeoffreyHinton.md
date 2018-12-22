@@ -113,9 +113,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 	 - How quickly do the weights converge to their correct values? It can be very slow if two input dimensions are highly correlated. if you almost always have the same value of two features, it is hard to decide how to divide them.
 
 # Lecture 3.2 The error surface for a linear neuron
-- error surface: horizontal axis for each weight and one vertical acis for the 
+- error surface: horizontal axis for each weight and one vertical axis for the error
+	- example: for a linear neuron with a squared error, the error surface is a quadratic bowl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTE3OTgwNiwtMTU2MzUxNTAwLDI2Nj
+eyJoaXN0b3J5IjpbMTk0ODU0NTA0NSwtMTU2MzUxNTAwLDI2Nj
 A1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1
 LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyNDQxMDgxMjksMjI1Nz
 AyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwx
