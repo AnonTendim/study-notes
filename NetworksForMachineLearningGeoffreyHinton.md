@@ -86,12 +86,14 @@ A neural network with two layers of neurons and a single winner in the top layer
 - Average of two good weight vectors is a good weight vector as the problem is convex
 
 # Lecture 2.4 Why the learning works
-- 
+## Informal sketch of proof of convergence
+- Each time the perceptron makes a mistake, the current weight vector moves to decrease its squared distance from every weight vector 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0ND
-EwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUs
-Nzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MT
-MwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTcz
-LC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOT
-I1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTEyOTczNjE0NzcsMzE4MzcxODk1LDE3Nz
+E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
+LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
+IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
+MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLT
+E3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQz
+NDY0NDY5XX0=
 -->
