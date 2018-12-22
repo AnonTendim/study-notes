@@ -87,9 +87,11 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.4 Why the learning works
 ## Informal sketch of proof of convergence
-- Each time the perceptron makes a mistake, the current weight vector moves to decrease its squared distance from every weight vector 
+- Each time the perceptron makes a mistake, the current weight vector moves to decrease its squared distance from every weight vector in the "generously feasible" region
+- the squared distance decreases by at least the square length of the input vector
+- after a finite number of mistakes, the weight vector must lie in the feasible region if the region exists
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTczNjE0NzcsMzE4MzcxODk1LDE3Nz
+eyJoaXN0b3J5IjpbLTEzNDA3OTkwNTQsMzE4MzcxODk1LDE3Nz
 E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
 LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
 IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
