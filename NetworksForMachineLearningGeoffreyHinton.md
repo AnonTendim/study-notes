@@ -109,13 +109,14 @@ A neural network with two layers of neurons and a single winner in the top layer
 	 - $y = \sum_i w_i x_i$
 	 - Randomly initialize $w_i$'s
 	 - Residual error $E = \frac{1}{2}\sum_{n \in \text{training}} (t^n-y^n)^2$
-	 - batch update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n) \to \Delta{w_i} = -\epsilon \frac{\partial E}{\partial w_i} = \sum_n \epsilon x_i^n (t^n-y^n)$
+	 - batch update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n) \to \Delta{w_i} = -\epsilon \frac{\partial E}{\partial w_i} = \sum_n \epsilon x_i^n (t^n-y^n)$ where $\epsilon$ is the learning rate
+	 - How quickly do the weights converge to their correct values? It can be very slow if two input dimensions are highly correlated. if you almost always have the same value of two features
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA4MzQ2MjIsMjY2MDU2OTAsLTEyNT
-IyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1
-LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2Nz
-cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAs
-LTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNz
-Q2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0Mjcz
-NzddfQ==
+eyJoaXN0b3J5IjpbMTY4ODg4MzY1NywyNjYwNTY5MCwtMTI1Mj
+I1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUs
+MTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3Nz
+I0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwt
+OTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3ND
+Y4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3
+N119
 -->
