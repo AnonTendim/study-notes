@@ -115,17 +115,21 @@ A neural network with two layers of neurons and a single winner in the top layer
 # Lecture 3.2 The error surface for a linear neuron
 - error surface: horizontal axis for each weight and one vertical axis for the error
 	- example: for a linear neuron with a squared error, the error surface is a quadratic bowl. Vertical cross-sections are parabolas and horizontal cross-sections are ellipses
+
 - adaptive delta rule is a derivative of error function with respect to the weights
+
 - batch learning: if we change the weights in proportion to the batch error derivative, it's equivalent to doing steepest descent on the error surface
 	- if we look at the surface error from above, we get elliptical contour lines and the delta rule is going to take us at right angles to those elliptical contour lines [insert]
 - online learning: after each training case, we zig-zag update the weights in proportion to the gradient of that single case. The changes in the weights moves us perpendicular  towards one of the constraint planes. [insert]
-- 
+
+- why learning can be slow
+	- if the ellipse is very elongated, which happens if the lines that correspond to two training cases are almost parallel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUzNjkwMzgsMTExNjgwMDA5NiwtMT
-U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
-MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
-QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
-LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3ND
-EzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3
-M119
+eyJoaXN0b3J5IjpbNjU0ODQ4Njk0LDExMTY4MDAwOTYsLTE1Nj
+M1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMs
+MjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MT
+A4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3
+OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMz
+AzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzNd
+fQ==
 -->
