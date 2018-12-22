@@ -78,12 +78,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 - But the difficulty is deciding which features to use as the bad choices of features makes it impossible to have a weight set.
 
 # Lecture 2.3 A geometrical view of perceptrons
-
+weight-space
+: h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE3NDIxNDEsLTEyNDQxMDgxMjksMj
-I1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQy
-MSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxND
-I2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5
-NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNy
-wtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbLTQzOTk1MDk5MCwtMTI0NDEwODEyOSwyMj
+U3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIx
+LDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0Mj
+Y5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3
+NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC
+0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
 -->
