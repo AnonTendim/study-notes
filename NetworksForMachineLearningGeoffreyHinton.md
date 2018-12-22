@@ -87,16 +87,20 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.4 Why the learning works
 ## Informal sketch of proof of convergence
+- margin is $\delta$
 - $w\cdot v\geq \delta \cdot M$
 - $||w||^2 \leq M$
 - $w \cdot v \leq ||w||$
 - $M \leq \frac{1}{\delta^ 2}$
+
+# Lecture 2.5 What perceptrons can't do
+## The limitations of Percept
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTUyNjg5NiwyMTQ0NTg1MTc1LDMxOD
-M3MTg5NSwxNzcxODE1OTQsLTEyNDQxMDgxMjksMjI1NzAyMjY0
-LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwxNjMyND
-Q0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OTE4MDk1
-LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYxNiwxOT
-EwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzU5MzIzMzA2LDIxNDQ1ODUxNzUsMzE4Mz
+cxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQs
+NTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0ND
+QyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUs
+LTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MT
+A0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMDg4NzQ2
+NjEyXX0=
 -->
