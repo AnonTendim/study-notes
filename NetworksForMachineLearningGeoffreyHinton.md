@@ -130,13 +130,13 @@ logistic neurons
 : $z = b+\sum_i x_iw_i$
 : $y = \frac{1}{1+e^{-z}}$
 : $\frac{\partial y}{\partial w_i} = \frac{\partial z}{\partial w_i}\frac{dy}{dz} = x_iy(1-y)$
-: $\frac{\partial E}{\partial w_i} = \sum_n \frac{\partial y^n}{\partial w_i}\frac{\partial E}{\partial y^n}$
+: $\frac{\partial E}{\partial w_i} = \sum_n \frac{\partial y^n}{\partial w_i}\frac{\partial E}{\partial y^n} = -\sum_n x_i^n y^n (1-y^n)(t^n-y^n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc4MjgxMzYsLTEwNTEzMjM5NzQsMT
-ExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUy
-Njk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNz
-cxODE1OTQsLTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2
-OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05Mj
-kyMzgzODYsMjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTUxMTQyNDkzNCwtMTA1MTMyMzk3NCwxMT
+E2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2
+OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3Nz
+E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
+LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
+IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
+MV19
 -->
