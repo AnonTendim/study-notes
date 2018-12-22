@@ -83,11 +83,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 - has one dimension per weight
 - A point in the space represents a particular setting of all the weights (points <-> weight vectors)
 - each training case is a hyperplane that passes through the origin in white space (training case <-> hyperplane )
+- Average of two good weight vectors is a good weight vector as the problem is convex
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNT
-cwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEs
-MTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNj
-kxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2
-MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5MjUwNzY2MDcsLT
-IwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
+eyJoaXN0b3J5IjpbLTIwMjI4ODY5MzAsMTc3MTgxNTk0LC0xMj
+Q0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4
+NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNz
+QxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1
+NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLD
+E5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0NjQ0NjldfQ==
+
 -->
