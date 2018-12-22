@@ -134,13 +134,13 @@ logistic neurons
 
 # Lecture 3.4 The backpropagation algorithm
 Want to automate the loop of designing features for a particular task and seeing how well they work
-- learn by perturbing weights: randomly perturb one weight and see if it improves performance. If so, save the change
+- (an inefficient way) to learn by perturbing weights: randomly perturb one weight and see if it improves performance. If so, save the change
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMT
-E2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2
-OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3Nz
-E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
-LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
-IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
-MV19
+eyJoaXN0b3J5IjpbLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMT
+A1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2
+OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMz
+E4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIy
+NjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2Mz
+I0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgw
+OTVdfQ==
 -->
