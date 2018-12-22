@@ -136,8 +136,9 @@ logistic neurons
 Want to automate the loop of designing features for a particular task and seeing how well they work
 - (an inefficient way) to learn by perturbing weights: randomly perturb one weight and see if it improves performance. If so, save the change
 - (another inefficient way) to perturb all weights in parallel and correlate the performance gain with the weight changes
+- (a better way) to randomly perturb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE1MzA2MDMsLTE3MzE0NjQ5MzIsMT
+eyJoaXN0b3J5IjpbLTE0MDU5NzQyNjIsLTE3MzE0NjQ5MzIsMT
 I0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYz
 NTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLD
 IxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEw
