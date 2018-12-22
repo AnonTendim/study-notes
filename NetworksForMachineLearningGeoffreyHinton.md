@@ -79,12 +79,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.3 A geometrical view of perceptrons
 weight-space
-: h
+: has one dimension per weight
+: each training point is a hyperplane that passes through the origin in white space
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTk1MDk5MCwtMTI0NDEwODEyOSwyMj
-U3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIx
-LDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0Mj
-Y5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3
-NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2NjA3LC
-0yMDg4NzQ2NjEyLC0xNzQzNDY0NDY5XX0=
+eyJoaXN0b3J5IjpbLTEyMDM2ODAxNjMsLTEyNDQxMDgxMjksMj
+I1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQy
+MSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxND
+I2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5
+NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNy
+wtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
 -->
