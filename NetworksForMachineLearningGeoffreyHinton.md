@@ -74,8 +74,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 - If the output unit is correct, leave its weights alone.
 - If the output unit incorrectly outputs a zero, add the input vector to the weight vector 
 - If the output unit incorrectly outputs a 1, subtract the input vector from the weight vector
+- This is guaranteed to find a set of weights that gets the right answer for all the training cases if any such weight set exists
+- But the difficulty is d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDgwNTU5MCwyMjU3MDIyNjQsNTI2Nz
+eyJoaXN0b3J5IjpbLTUzMjkwNjM4NywyMjU3MDIyNjQsNTI2Nz
 cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAs
 LTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNz
 Q2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0Mjcz
