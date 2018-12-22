@@ -146,13 +146,14 @@ Want to automate the loop of designing features for a particular task and seeing
 		- $\frac{\partial E}{\partial y_i} = \sum_j \frac{\partial E}{\partial z_j}\frac{dz_j}{dy_i}=\sum_j \frac{\partial E}{\partial z_j}w_{ij} = \sum_j \frac{\partial E}{\partial y_j}\frac{\partial y_j}{\partial z_j}w_{ij} = \sum_j \frac{\partial E}{\partial y_j}y_j(1-y_j)w_{ij}$
 
 # Lecture 3.5 How to use the derivatives computed by the backpropagation algorithm
-
+- Optimization issues: How do we use the error derivatives on individual cases to discover a good set of weights?
+- Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3OTQyMTYsNDQwMDM0NTcsLTY5NTUwNT
-U1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwt
-MTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MD
-U2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUs
-MzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MD
-IyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxXX0=
-
+eyJoaXN0b3J5IjpbLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NT
+A1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0
+LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNj
+YwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3
+NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNT
+cwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjFd
+fQ==
 -->
