@@ -125,9 +125,11 @@ A neural network with two layers of neurons and a single winner in the top layer
 - why learning can be slow [insert]
 	- if the ellipse is very elongated, which happens if the lines that correspond to two training cases are almost parallel, the gradient vector has a large component along the short axis of the ellipse and a small component along the long axis of the ellipse
 
-# Lecture 3
+# Lecture 3.3 Learning the weights of a logistic output neuron
+logistic neurons
+: $z = b+\sum_i x_iw_i, y = \frac{1}{1+e^{-z}}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI4Mzk2MTYsMTExNjgwMDA5NiwtMT
+eyJoaXN0b3J5IjpbLTEwNTEzMjM5NzQsMTExNjgwMDA5NiwtMT
 U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
 MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
 QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
