@@ -141,9 +141,9 @@ Want to automate the loop of designing features for a particular task and seeing
 	- first, convert eh discrepancy between each output and its target value into an error derivative
 	- then compute error derivatives in each hidden layer from error derivatives in the layer above
 	- $\frac{\partial E}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}\frac{\partial z_j}{\partial w_{ij}} = \frac{\partial E}{\partial z_j}y_i = \frac{\partial E}{\partial y_j}\frac{\partial y_j}{\partial z_j}y_i = \frac{\partial E}{\partial y_j}y_j(1-y_j)y_i$
-	- $\frac{\partial E}{\partial y_i} = \sum_j \frac{\partial E}{\partial z_j}\frac{dx_j}{}$
+	- $\frac{\partial E}{\partial y_i} = \sum_j \frac{\partial E}{\partial z_j}\frac{dz_j}{dy_i}=\sum_j \frac{\partial E}{\partial z_j}w_{ij} = \frac{\partial E}{\partial y_j}\frac{\partial y_j}{\partial z_j}y_i = \frac{\partial E}{\partial y_j}y_j(1-y_j)y_i$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MTQ3MTU4LC02OTU1MDU1NSwxMTc1Nz
+eyJoaXN0b3J5IjpbLTY2OTk2MDU5LC02OTU1MDU1NSwxMTc1Nz
 kwODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5
 NzQsMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMj
 UyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5
