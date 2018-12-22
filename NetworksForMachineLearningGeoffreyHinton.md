@@ -97,9 +97,9 @@ A neural network with two layers of neurons and a single winner in the top layer
 ## The limitations of Perceptrons
 - A binary threshold output unit cannot tell if two single bit features are the same (c(1,1)=1, c(0,0)=1, c(1,0)=0, c(0,1)=0) as this leads to contradictions in the inequalities
 - A binary decision unit cannot discriminate patterns with the same number of on pixels assuming translation with wraparound
-	- Proof: each pixel (weight) can be activated as one of the 4 on-pixels (value 1). So total 
+	- Proof: Let Pattern A have label 1. Each pixel (weight) can be activated as one of the 4 on-pixels (value 1). So total input received by the decision unit over all possibilities will be four times the sum of all weights. Let Pattern B have label 0. Again, each pixel (weight) can be activated by one of the 4 on-pixels 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NTE0MTY1LC0xMjUyMjUyNjk4LDkwNz
+eyJoaXN0b3J5IjpbNzQ0MjM5ODg0LC0xMjUyMjUyNjk4LDkwNz
 gwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQs
 LTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMT
 Y5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYs
