@@ -118,13 +118,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 - adaptive delta rule is a derivative of error function with respect to the weights
 - batch learning: if we change the weights in proportion to the batch error derivative, it's equivalent to doing steepest descent on the error surface
 	- if we look at the surface error from above, we get elliptical contour lines and the delta rule is going to take us at right angles to those elliptical contour lines [insert]
-- online learning: after each training case, we update the weights in proportion to the gradient of that single case
+- online learning: after each training case, we update the weights in proportion to the gradient of that single case. The changes in the weights moves us perpendicular  towards one of the constraint planes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2Nj
-A1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1
-LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyNDQxMDgxMjksMjI1Nz
-AyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwx
-NjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OT
-E4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYx
-Nl19
+eyJoaXN0b3J5IjpbMTAzODg2MjE0MSwxMTE2ODAwMDk2LC0xNT
+YzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkz
+LDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0ND
+EwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUs
+Nzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MT
+MwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTcz
+XX0=
 -->
