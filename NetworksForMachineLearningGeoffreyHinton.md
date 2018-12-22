@@ -122,14 +122,16 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- if we look at the surface error from above, we get elliptical contour lines and the delta rule is going to take us at right angles to those elliptical contour lines [insert]
 - online learning: after each training case, we zig-zag update the weights in proportion to the gradient of that single case. The changes in the weights moves us perpendicular  towards one of the constraint planes. [insert]
 
-- why learning can be slow
-	- if the ellipse is very elongated, which happens if the lines that correspond to two training cases are almost parallel
+- why learning can be slow [insert]
+	- if the ellipse is very elongated, which happens if the lines that correspond to two training cases are almost parallel, the gradient vector has a large component along the short axis of the ellipse and a small component along the long axis of the ellipse
+
+# Lecture 3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0ODQ4Njk0LDExMTY4MDAwOTYsLTE1Nj
-M1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMs
-MjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MT
-A4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3
-OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMz
-AzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzNd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMDI4Mzk2MTYsMTExNjgwMDA5NiwtMT
+U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
+MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
+QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
+LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3ND
+EzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3
+M119
 -->
