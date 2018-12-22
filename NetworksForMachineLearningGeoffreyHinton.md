@@ -96,13 +96,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 # Lecture 2.5 What perceptrons can't do
 ## The limitations of Perceptrons
 - A binary threshold output unit cannot tell if two single bit features are the same (c(1,1)=1, c(0,0)=1, c(1,0)=0, c(0,1)=0) as this leads to contradictions in the inequalities
-- 
+- A binary decision unit cannot discriminate patterns with the same number of on pixels assuming translation with wraparound
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjU0ODA3Niw5MDc4MDU1OTMsMjE0ND
-U4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MTA4MTI5
-LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2ND
-c0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAzMjUs
-MTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLTE5MD
-I0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAzMzUyLDE5MjUwNzY2
-MDddfQ==
+eyJoaXN0b3J5IjpbLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxND
+Q1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEy
+OSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODUsNzk0Nj
+Q3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4NiwyMDc0MTMwMzI1
+LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtODEzOTU5NTczLC0xOT
+AyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAwMzM1MiwxOTI1MDc2
+NjA3XX0=
 -->
