@@ -104,13 +104,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 3.1 Learning the weights of a linear neuron
  - The perceptron learning procedure cannot be generalized to hidden layers as multi-layer neural networks do not use the perceptron learning procedure
- - A new way 
+ - A new way can show that a learning procedure makes progress: instead of showing the weights get closer to a good set of weights, show that the actual output values get closer to the target values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDQwNjQ4MSwtMTI1MjI1MjY5OCw5MD
-c4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0
-LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMT
-E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
-LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYxLC04MT
-M5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMTc3MDAz
-MzUyXX0=
+eyJoaXN0b3J5IjpbLTEyMzUyMzA0MDUsLTEyNTIyNTI2OTgsOT
+A3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5
+NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5Mz
+ExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOTIzODM4
+NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2MSwtOD
+EzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLTE3NzAw
+MzM1Ml19
 -->
