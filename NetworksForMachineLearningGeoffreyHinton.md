@@ -108,14 +108,14 @@ A neural network with two layers of neurons and a single winner in the top layer
  - Example: Linear neurons with squared error measure
 	 - $y = \sum_i w_i x_i$
 	 - Randomly initialize $w_i$'s
-	 - Residual error = $\frac{1}{2}\sum_{n \in \text{training}} (t^n-y^n)^2$
-	 - 
+	 - Residual error $E = \frac{1}{2}\sum_{n \in \text{training}} (t^n-y^n)^2$
+	 - update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA0NTUyMTMsMjY2MDU2OTAsLTEyNT
-IyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1
-LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2Nz
-cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAs
-LTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNz
-Q2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0Mjcz
-NzddfQ==
+eyJoaXN0b3J5IjpbODUxNDgwMTQsMjY2MDU2OTAsLTEyNTIyNT
+I2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3
+NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyND
+Y5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTky
+OTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2OD
+c2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzdd
+fQ==
 -->
