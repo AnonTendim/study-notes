@@ -75,12 +75,15 @@ A neural network with two layers of neurons and a single winner in the top layer
 - If the output unit incorrectly outputs a zero, add the input vector to the weight vector 
 - If the output unit incorrectly outputs a 1, subtract the input vector from the weight vector
 - This is guaranteed to find a set of weights that gets the right answer for all the training cases if any such weight set exists
-- But the difficulty is deciding which features to use as the bad choices of features makes it impossible to have a weight set
+- But the difficulty is deciding which features to use as the bad choices of features makes it impossible to have a weight set.
+
+# Lecture 2.3 A geometrical view of perceptrons
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNj
-c3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAw
-LC05MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mj
-c0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3
-Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNywtMjA4ODc0NjYxMi
-wtMTc0MzQ2NDQ2OV19
+eyJoaXN0b3J5IjpbLTE1NzE3NDIxNDEsLTEyNDQxMDgxMjksMj
+I1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQy
+MSwxNjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxND
+I2OTE4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5
+NzYxNiwxOTEwNDI3Mzc3LC0xNzcwMDMzNTIsMTkyNTA3NjYwNy
+wtMjA4ODc0NjYxMiwtMTc0MzQ2NDQ2OV19
 -->
