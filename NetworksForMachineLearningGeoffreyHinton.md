@@ -112,9 +112,10 @@ A neural network with two layers of neurons and a single winner in the top layer
 	 - batch update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n) \to \Delta{w_i} = -\epsilon \frac{\partial E}{\partial w_i} = \sum_n \epsilon x_i^n (t^n-y^n)$ where $\epsilon$ is the learning rate
 	 - How quickly do the weights converge to their correct values? It can be very slow if two input dimensions are highly correlated. if you almost always have the same value of two features, it is hard to decide how to divide them.
 
-# Lecture 
+# Lecture 3.2 The error surface for a linear neuron
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjg4ODQyMywyNjYwNTY5MCwtMTI1Mj
+eyJoaXN0b3J5IjpbLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1Mj
 I1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUs
 MTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3Nz
 I0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwt
