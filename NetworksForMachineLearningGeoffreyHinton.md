@@ -130,13 +130,16 @@ logistic neurons
 : $z = b+\sum_i x_iw_i$
 : $y = \frac{1}{1+e^{-z}}$
 : $\frac{\partial y}{\partial w_i} = \frac{\partial z}{\partial w_i}\frac{dy}{dz} = x_iy(1-y)$
-: $\frac{\partial E}{\partial w_i} = \sum_n \frac{\partial y^n}{\partial w_i}\frac{\partial E}{\partial y^n} = -\sum_n x_i^n y^n (1-y^n)(t^n-y^n)$
+: $\frac{\partial E}{\partial w_i} = \sum_n \frac{\partial y^n}{\partial w_i}\frac{\partial E}{\partial y^n} = -\sum_n x_i^n y^n (1-y^n)(t^n-y^n)$[insert]
+
+# Lecture 3.4 The backpropagation algorithm
+Want to automate the loop of designing features for a particular task and seeing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTQyNDkzNCwtMTA1MTMyMzk3NCwxMT
-E2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2
-OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3Nz
-E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
-LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
-IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
-MV19
+eyJoaXN0b3J5IjpbLTYzODM5MjI4LC0xMDUxMzIzOTc0LDExMT
+Y4MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5
+OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MT
+gxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0Njks
+MTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5Mj
+M4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYx
+XX0=
 -->
