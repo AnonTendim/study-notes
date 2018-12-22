@@ -147,10 +147,12 @@ Want to automate the loop of designing features for a particular task and seeing
 
 # Lecture 3.5 How to use the derivatives computed by the backpropagation algorithm
 - Optimization issues: How do we use the error derivatives on individual cases to discover a good set of weights?
-	- 
+	- How often to update the weights?
+		- online: after each training case
+		- full batch: after a full sweep through the training data
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyMTMzMzkwLC01OTEwNTg4NzcsNDQwMD
+eyJoaXN0b3J5IjpbMjUwNzIwNTI2LC01OTEwNTg4NzcsNDQwMD
 M0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIs
 MTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNT
 YzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkz
