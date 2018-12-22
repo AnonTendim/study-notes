@@ -151,13 +151,16 @@ Want to automate the loop of designing features for a particular task and seeing
 		- online: after each training case
 		- full batch: after a full sweep through the training data
 		- mini-batch: after a small sample of training cases
+	- How much to update?
+		- use a fixed learning rate?
+		- adapt the global learning rate? decrease the learning rate if we oscillate around and increase the learning 
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MTIwNTcsLTU5MTA1ODg3Nyw0NDAwMz
-Q1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwx
-MjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1Nj
-M1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMs
-MjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MT
-A4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NV19
-
+eyJoaXN0b3J5IjpbMTE0NjY3NjYzNSwtNTkxMDU4ODc3LDQ0MD
+AzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0LC0xNzMxNDY0OTMy
+LDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgwMDA5NiwtMT
+U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
+MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
+QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
+XX0=
 -->
