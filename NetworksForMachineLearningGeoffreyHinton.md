@@ -109,13 +109,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 	 - $y = \sum_i w_i x_i$
 	 - Randomly initialize $w_i$'s
 	 - Residual error $E = \frac{1}{2}\sum_{n \in \text{training}} (t^n-y^n)^2$
-	 - update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n) \to \Delta{w_i} = -\epsilon \frac{\partial E}{\partial w_i} = \sum_n \epsilon x_i$
+	 - batch update delta rule: $\frac{\partial E}{\partial w_i} = -\sum_n x_i^n (t^n-y^n) \to \Delta{w_i} = -\epsilon \frac{\partial E}{\partial w_i} = \sum_n \epsilon x_i^n (t^n-y^n)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzA1MzA1LDI2NjA1NjkwLC0xMjUyMj
-UyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwx
-NzcxODE1OTQsLTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNjc3Mj
-Q2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05
-MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OTE4MDk1LC05Mjc0Nj
-g3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYxNiwxOTEwNDI3Mzc3
-XX0=
+eyJoaXN0b3J5IjpbLTEwNjA4MzQ2MjIsMjY2MDU2OTAsLTEyNT
+IyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1
+LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2Nz
+cyNDY5LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAs
+LTkyOTIzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNz
+Q2ODc2MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0Mjcz
+NzddfQ==
 -->
