@@ -100,9 +100,9 @@ A neural network with two layers of neurons and a single winner in the top layer
 	- Proof: Let Pattern A have label 1. Each pixel (weight) can be activated as one of the 4 on-pixels (value 1). So total value received by the decision unit over all possibilities will be four times the sum of all weights. Let Pattern B have label 0. Again, each pixel (weight) can be activated by one of the 4 on-pixels (value 1). So total value received by the decision unit over all possibilities will be four times the sum of all weights, same as the Pattern A case. But to discriminate correctly, every single case of pattern must provide more value to the decision unit than every single case of pattern B. Contradiction.
 	- The whole point of pattern recognition is to recognize patterns that goes under transformations like translation but Minsky and Papert's "Group Invariance Theorem" says that Perceptron cannot learn if the transformations from a group.
 	- To deal with such transformations, a Perceptron needs to use multiple feature units to recognize transformations of informative sub-patterns
-- Neural networks are only going to be really powerful if we can learn the feature detectors. It's not
+- Neural networks are only going to be really powerful if we can learn the feature detectors. It's not enough to just learn weights of feature detectors, we have to learn feature detectors themselves (hand-coded hidden units, ).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTM2MTExNCwtMTI1MjI1MjY5OCw5MD
+eyJoaXN0b3J5IjpbLTY3NzUxMzQ0NywtMTI1MjI1MjY5OCw5MD
 c4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0
 LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMT
 E2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4Mzg2
