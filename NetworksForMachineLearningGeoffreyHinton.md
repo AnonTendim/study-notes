@@ -114,13 +114,14 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 3.2 The error surface for a linear neuron
 - error surface: horizontal axis for each weight and one vertical axis for the error
-	- example: for a linear neuron with a squared error, the error surface is a quadratic bowl
+	- example: for a linear neuron with a squared error, the error surface is a quadratic bowl. Vertical cross-sections are parabolas and horizontal cross-sections are ellipses
+- adaptive delta rule is a derivative 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODU0NTA0NSwtMTU2MzUxNTAwLDI2Nj
-A1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1
-LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyNDQxMDgxMjksMjI1Nz
-AyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwx
-NjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OT
-E4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYx
-Nl19
+eyJoaXN0b3J5IjpbLTE4NjI0MDUyMTcsLTE1NjM1MTUwMCwyNj
+YwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3
+NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNT
+cwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEs
+MTYzMjQ0NDIwMCwtOTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNj
+kxODA5NSwtOTI3NDY4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2
+MTZdfQ==
 -->
