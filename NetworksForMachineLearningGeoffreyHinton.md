@@ -137,13 +137,13 @@ Want to automate the loop of designing features for a particular task and seeing
 - (an inefficient way) to learn by perturbing weights: randomly perturb one weight and see if it improves performance. If so, save the change
 - (another inefficient way) to perturb all weights in parallel and correlate the performance gain with the weight changes
 - (a better way) to randomly perturb the activities of the hidden units so that once we know how we want a hidden activity to change on a given training case, we can compute how to change the weights
-- (the best way) to backpropagate: we use error derivatives w.r.t. hidden actrivities
+- (the best way) to backpropagate: we use error derivatives w.r.t. hidden activities 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzgxNzI0OCwxMTc1NzkwODY0LC0xNz
-MxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgw
-MDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LD
-kwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1
-OTQsLTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOT
-MxMTY5MTg1LDc5NDY0NzQyMSwxNjMyNDQ0MjAwLC05MjkyMzgz
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDg5Mjg0NjgsMTE3NTc5MDg2NCwtMT
+czMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4
+MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OC
+w5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgx
+NTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMT
+kzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5MjM4
+Mzg2XX0=
 -->
