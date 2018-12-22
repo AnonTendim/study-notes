@@ -87,15 +87,16 @@ A neural network with two layers of neurons and a single winner in the top layer
 
 # Lecture 2.4 Why the learning works
 ## Informal sketch of proof of convergence
+- generously feasible weight vectors that lie within the feasible region by a margin at least as great as the length of the input vector that defines each constraint plane 
 - Each time the perceptron makes a mistake, the current weight vector moves to decrease its squared distance from every weight vector in the "generously feasible" region
 - the squared distance decreases by at least the square length of the input vector
 - after a finite number of mistakes, the weight vector must lie in the feasible region if the region exists
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA3OTkwNTQsMzE4MzcxODk1LDE3Nz
-E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
-LDE5MzExNjkxODUsNzk0NjQ3NDIxLDE2MzI0NDQyMDAsLTkyOT
-IzODM4NiwyMDc0MTMwMzI1LDE0MjY5MTgwOTUsLTkyNzQ2ODc2
-MSwtODEzOTU5NTczLC0xOTAyNDk3NjE2LDE5MTA0MjczNzcsLT
-E3NzAwMzM1MiwxOTI1MDc2NjA3LC0yMDg4NzQ2NjEyLC0xNzQz
-NDY0NDY5XX0=
+eyJoaXN0b3J5IjpbMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MT
+gxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0Njks
+MTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwtOTI5Mj
+M4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3NDY4NzYx
+LC04MTM5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3NywtMT
+c3MDAzMzUyLDE5MjUwNzY2MDcsLTIwODg3NDY2MTIsLTE3NDM0
+NjQ0NjldfQ==
 -->
