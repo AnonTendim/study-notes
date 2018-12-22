@@ -113,13 +113,13 @@ A neural network with two layers of neurons and a single winner in the top layer
 	 - How quickly do the weights converge to their correct values? It can be very slow if two input dimensions are highly correlated. if you almost always have the same value of two features, it is hard to decide how to divide them.
 
 # Lecture 3.2 The error surface for a linear neuron
-
+- error surface: horizontal axis for each weight and one vertical acis for the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1Mj
-I1MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUs
-MTc3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3Nz
-I0NjksMTkzMTE2OTE4NSw3OTQ2NDc0MjEsMTYzMjQ0NDIwMCwt
-OTI5MjM4Mzg2LDIwNzQxMzAzMjUsMTQyNjkxODA5NSwtOTI3ND
-Y4NzYxLC04MTM5NTk1NzMsLTE5MDI0OTc2MTYsMTkxMDQyNzM3
-N119
+eyJoaXN0b3J5IjpbLTgyNTE3OTgwNiwtMTU2MzUxNTAwLDI2Nj
+A1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1
+LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyNDQxMDgxMjksMjI1Nz
+AyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1LDc5NDY0NzQyMSwx
+NjMyNDQ0MjAwLC05MjkyMzgzODYsMjA3NDEzMDMyNSwxNDI2OT
+E4MDk1LC05Mjc0Njg3NjEsLTgxMzk1OTU3MywtMTkwMjQ5NzYx
+Nl19
 -->
