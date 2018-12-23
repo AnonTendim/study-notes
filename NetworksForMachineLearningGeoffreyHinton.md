@@ -194,12 +194,15 @@ words can be predicted quite well without full understanding: Trigram method
 - We cannot use a much bigger context because there are too many possibilities to store and the counts would mostly be zero
 - A trigram model does not understand the similarities between words, like cat/dog, Friday/Monday
 - Bengio's neural net for predicting the next word [insert]
+
+# Lecture 4.5 Ways to deal with large number of possible outputs in neuro-probabilistic language models
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDEwMjg2NywzMzc0ODU0MSwtMTkzNT
-QzNTYxNSwtMTU3MDg2Njk3LC0zNDkxMzY0MzcsMTA1MjM3NDk3
-OCwtMTk4MTA1NzY5NCwtMjI2NTYyNDQzLDIwMjAyMzcxNzUsLT
-EwNzU5MjU1NTgsLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NTA1
-NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC
-0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYw
-NTY5MF19
+eyJoaXN0b3J5IjpbNzQxMzAwMzEwLDMzNzQ4NTQxLC0xOTM1ND
+M1NjE1LC0xNTcwODY2OTcsLTM0OTEzNjQzNywxMDUyMzc0OTc4
+LC0xOTgxMDU3Njk0LC0yMjY1NjI0NDMsMjAyMDIzNzE3NSwtMT
+A3NTkyNTU1OCwtNTkxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1
+NSwxMTc1NzkwODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLT
+EwNTEzMjM5NzQsMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1
+NjkwXX0=
 -->
