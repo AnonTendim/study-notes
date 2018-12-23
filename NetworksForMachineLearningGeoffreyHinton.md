@@ -158,12 +158,14 @@ Want to automate the loop of designing features for a particular task and seeing
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 	- problem of overfitting
 		- sampling error 
+		- if the model is very flexible, it can model the sampling error really well -> overfit
+		- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY0NjU1MzEsLTU5MTA1ODg3Nyw0ND
-AwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkz
-MiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLT
-E1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1
-OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgxNTk0LC0xMj
-Q0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0NjksMTkzMTE2OTE4
-NV19
+eyJoaXN0b3J5IjpbMTUyMzQ0MzM5NCwtNTkxMDU4ODc3LDQ0MD
+AzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0LC0xNzMxNDY0OTMy
+LDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgwMDA5NiwtMT
+U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
+MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
+QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
+XX0=
 -->
