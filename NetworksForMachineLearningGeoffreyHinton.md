@@ -154,10 +154,12 @@ Want to automate the loop of designing features for a particular task and seeing
 	- How much to update?
 		- use a fixed learning rate?
 		- adapt the global learning rate? decrease the learning rate if we oscillate around and increase the learning rate if we make steady progress
-		- don't use steepest descent
+		- don't use steepest descent?
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
+	- problem of overfitting
+		- sampling error
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQzMTQ2NDAsLTU5MTA1ODg3Nyw0ND
+eyJoaXN0b3J5IjpbLTEzNjIyNjE3NDUsLTU5MTA1ODg3Nyw0ND
 AwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkz
 MiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLT
 E1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1
