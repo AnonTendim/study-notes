@@ -179,13 +179,14 @@ relationship between feature vector representation of concepts and representatio
 
 # Lecture 4.3 Another diversion: the softmax output function
 problems with squared error
- 
+- If the desired output is 1 and the actual output is 0.00000001 (slope is basically 0), there is almost no gradient for a logistic unit to fix up the error
+- If  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNTI0MzU4LC0xOTgxMDU3Njk0LC0yMj
-Y1NjI0NDMsMjAyMDIzNzE3NSwtMTA3NTkyNTU1OCwtNTkxMDU4
-ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0LC0xNz
-MxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgw
-MDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LD
-kwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1
-OTRdfQ==
+eyJoaXN0b3J5IjpbMTkzMzAzMjQ0NiwtMTk4MTA1NzY5NCwtMj
+I2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NTgsLTU5MTA1
+ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMT
+czMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4
+MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OC
+w5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgx
+NTk0XX0=
 -->
