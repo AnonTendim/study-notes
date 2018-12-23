@@ -188,13 +188,13 @@ We can force the output to represent a probability distribution across discrete 
 -y_jy_i)- t_i\frac{1}{y_i}y_i(1-y_i)= y_i(\sum_j t_j)-t_i = y_i-t_i$
 
 # Lecture 4.4 Neuro-probabilistic language models
-
+words can be predicted quite well without full understanding
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc0NjczNTQsLTE5MzU0MzU2MTUsLT
-E1NzA4NjY5NywtMzQ5MTM2NDM3LDEwNTIzNzQ5NzgsLTE5ODEw
-NTc2OTQsLTIyNjU2MjQ0MywyMDIwMjM3MTc1LC0xMDc1OTI1NT
-U4LC01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3
-OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMz
-k3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEy
-NTIyNTI2OThdfQ==
+eyJoaXN0b3J5IjpbMTk2ODgwMjc2OSwtMTkzNTQzNTYxNSwtMT
+U3MDg2Njk3LC0zNDkxMzY0MzcsMTA1MjM3NDk3OCwtMTk4MTA1
+NzY5NCwtMjI2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NT
+gsLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5
+MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOT
+c0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1
+MjI1MjY5OF19
 -->
