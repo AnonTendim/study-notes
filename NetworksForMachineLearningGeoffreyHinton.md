@@ -188,13 +188,15 @@ We can force the output to represent a probability distribution across discrete 
 -y_jy_i)- t_i\frac{1}{y_i}y_i(1-y_i)= y_i(\sum_j t_j)-t_i = y_i-t_i$
 
 # Lecture 4.4 Neuro-probabilistic language models
-words can be predicted quite well without full understanding
+words can be predicted quite well without full understanding: Trigram method
+- Take a huge amount of text and count the frequencies of all triples of words.
+- Use these frequencies to make bets on the relative probabilities of words given the previous two words $\frac{\Pr[w_3 =  w_2 = b, w_1 = a]}{}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODgwMjc2OSwtMTkzNTQzNTYxNSwtMT
-U3MDg2Njk3LC0zNDkxMzY0MzcsMTA1MjM3NDk3OCwtMTk4MTA1
-NzY5NCwtMjI2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NT
-gsLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5
-MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOT
-c0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1
-MjI1MjY5OF19
+eyJoaXN0b3J5IjpbNjk4NTA3NzYxLC0xOTM1NDM1NjE1LC0xNT
+cwODY2OTcsLTM0OTEzNjQzNywxMDUyMzc0OTc4LC0xOTgxMDU3
+Njk0LC0yMjY1NjI0NDMsMjAyMDIzNzE3NSwtMTA3NTkyNTU1OC
+wtNTkxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMTc1Nzkw
+ODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5Nz
+QsMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUy
+MjUyNjk4XX0=
 -->
