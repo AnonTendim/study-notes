@@ -193,12 +193,13 @@ words can be predicted quite well without full understanding: Trigram method
 - Use these frequencies to make bets on the relative probabilities of words given the previous two words $\frac{\Pr[w_3 =  w_2 = b, w_1 = a]}{\Pr[w_3 = d| w_2 = b, w_1 = a]} = \frac{\text{count}(abc)}{\text{count}(abd)}$.
 - We cannot use a much bigger context because there are too many possibilities to store and the counts would mostly be zero
 - A trigram model does not understand the similarities between words, like cat/dog, Friday/Monday
+- Bengio's neural net for predicting the next word [insert]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3NDg1NDEsLTE5MzU0MzU2MTUsLTE1Nz
-A4NjY5NywtMzQ5MTM2NDM3LDEwNTIzNzQ5NzgsLTE5ODEwNTc2
-OTQsLTIyNjU2MjQ0MywyMDIwMjM3MTc1LC0xMDc1OTI1NTU4LC
-01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3OTA4
-NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMzk3NC
-wxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIy
-NTI2OThdfQ==
+eyJoaXN0b3J5IjpbLTUyNDEwMjg2NywzMzc0ODU0MSwtMTkzNT
+QzNTYxNSwtMTU3MDg2Njk3LC0zNDkxMzY0MzcsMTA1MjM3NDk3
+OCwtMTk4MTA1NzY5NCwtMjI2NTYyNDQzLDIwMjAyMzcxNzUsLT
+EwNzU5MjU1NTgsLTU5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NTA1
+NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC
+0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYw
+NTY5MF19
 -->
