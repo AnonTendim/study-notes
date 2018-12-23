@@ -184,9 +184,9 @@ problems with squared error
 
 We can force the output to represent a probability distribution across discrete alternatives: 
 - The output units in a softmax group use a non-local non-linearity: $y_i = \frac{e^{z_i}}{\sum_{j \in \text{group} }e^{z_j}}$  such that $\sum_i y_i = 1$ and $\frac{\partial y_i}{\partial z_i} = y_i (1-y_i)$ and $\frac{\partial y_i}{\partial z_j} = -y_iy_j$ if $i \neq j$
-- Cross-entropy: the right cost function to use with softmax. $C = -\sum_j t_j \log y_j$ where $t_j$ is the target value. The steepness of $\frac{dC}{dy}$ when it's wrong exactly balances the flatness of $\frac{dy}{dz}$ when it's wrong. $\frac{\partial C}{\partial z_i} = \sum_{j} \frac{\partial C}{\partial y_j}\frac{\partial y_j}{\partial z_i} = \sum_{j \neq i} - t_j = y_i-t_i$
+- Cross-entropy: the right cost function to use with softmax. $C = -\sum_j t_j \log y_j$ where $t_j$ is the target value. The steepness of $\frac{dC}{dy}$ when it's wrong exactly balances the flatness of $\frac{dy}{dz}$ when it's wrong. $\frac{\partial C}{\partial z_i} = \sum_{j} \frac{\partial C}{\partial y_j}\frac{\partial y_j}{\partial z_i} = \sum_{j \neq i} - t_j \frac{1}{y_j} y_jy_i- t_iy_i()= y_i-t_i$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTEzMzM5MSwtMTU3MDg2Njk3LC0zND
+eyJoaXN0b3J5IjpbMTY3MzE2NjI3MiwtMTU3MDg2Njk3LC0zND
 kxMzY0MzcsMTA1MjM3NDk3OCwtMTk4MTA1NzY5NCwtMjI2NTYy
 NDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NTgsLTU5MTA1ODg3Ny
 w0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2
