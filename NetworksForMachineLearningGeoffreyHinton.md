@@ -168,13 +168,14 @@ Want to automate the loop of designing features for a particular task and seeing
 			- dropout (randomly emit hidden units when training)
 
 # Lecture 4.1 Learning to predict the next word
-Given a large set of t
+Given a large set of triples that come from some family trees, figure out the regularities
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyNTE5NzA2LC0xMDc1OTI1NTU4LC01OT
-EwNTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQs
-LTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMT
-E2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2
-OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3Nz
-E4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5
-XX0=
+eyJoaXN0b3J5IjpbLTExMzg3MDA4MzIsLTEwNzU5MjU1NTgsLT
+U5MTA1ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2
+NCwtMTczMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LD
+ExMTY4MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1
+MjY5OCw5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMT
+c3MTgxNTk0LC0xMjQ0MTA4MTI5LDIyNTcwMjI2NCw1MjY3NzI0
+NjldfQ==
 -->
