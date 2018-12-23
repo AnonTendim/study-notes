@@ -170,12 +170,14 @@ Want to automate the loop of designing features for a particular task and seeing
 # Lecture 4.1 Learning to predict the next word
 Given a large set of triples that come from some family trees, figure out the regularities
 [insert]
+
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDIzNzE3NSwtMTA3NTkyNTU1OCwtNT
-kxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0
-LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMT
-ExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUy
-Njk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNz
-cxODE1OTQsLTEyNDQxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2
-OV19
+eyJoaXN0b3J5IjpbMTgyMzA0MzQ4NiwyMDIwMjM3MTc1LC0xMD
+c1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1
+LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMT
+A1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2
+OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMz
+E4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEwODEyOSwyMjU3MDIy
+NjRdfQ==
 -->
