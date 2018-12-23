@@ -175,12 +175,13 @@ Given a large set of triples that come from some family trees, figure out the re
 relationship between feature vector representation of concepts and representation of concepts via their relations to other concepts
 - a neural net can use vectors of semantic features to implement a relational graph
 - the obvious way to implement a relational graph in a neural net is to treat a neuron as a node in the graph and a connection as a binary relationship. But this "localist" method will not work because we have many different types of relationship and the connections in a neural net do not have discrete labels and we need ternary relationships as well as binary ones
+- the right way to implement relational knowledge in a neural net is still an open issue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzIyMjgwNywtMTk4MTA1NzY5NCwtMj
-I2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NTgsLTU5MTA1
-ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMT
-czMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4
-MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OC
-w5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgx
-NTk0XX0=
+eyJoaXN0b3J5IjpbLTE4ODEyMjExMzEsLTE5ODEwNTc2OTQsLT
+IyNjU2MjQ0MywyMDIwMjM3MTc1LC0xMDc1OTI1NTU4LC01OTEw
+NTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLT
+E3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2
+ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OT
+gsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4
+MTU5NF19
 -->
