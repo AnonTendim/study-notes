@@ -176,12 +176,16 @@ relationship between feature vector representation of concepts and representatio
 - a neural net can use vectors of semantic features to implement a relational graph
 - the obvious way to implement a relational graph in a neural net is to treat a neuron as a node in the graph and a connection as a binary relationship. But this "localist" method will not work because we have many different types of relationship and the connections in a neural net do not have discrete labels and we need ternary relationships as well as binary ones
 - the right way to implement relational knowledge in a neural net is still an open issue
+
+# Lecture 4.3 Another diversion: the softmax output function
+problems with squared error
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEyMjExMzEsLTE5ODEwNTc2OTQsLT
-IyNjU2MjQ0MywyMDIwMjM3MTc1LC0xMDc1OTI1NTU4LC01OTEw
-NTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLT
-E3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2
-ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OT
-gsOTA3ODA1NTkzLDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4
-MTU5NF19
+eyJoaXN0b3J5IjpbNzMzNTI0MzU4LC0xOTgxMDU3Njk0LC0yMj
+Y1NjI0NDMsMjAyMDIzNzE3NSwtMTA3NTkyNTU1OCwtNTkxMDU4
+ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0LC0xNz
+MxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgw
+MDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LD
+kwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1
+OTRdfQ==
 -->
