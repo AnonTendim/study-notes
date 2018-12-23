@@ -184,13 +184,13 @@ problems with squared error
 
 We can force the output to represent a probability distribution across discrete alternatives: 
 - The output units in a softmax group use a non-local non-linearity: $y_i = \frac{e^{z_i}}{\sum_{j \in \text{group} }e^{z_j}}$  such that $\sum_i y_i = 1$ and $\frac{\partial y_i}{\partial z_i} = y_i (1-y_i)$
-- Cross-entropy: the right cost function to use with softmax. $C = -\sum_j t_j \log y_j$ where $t_j$ is the target value
+- Cross-entropy: the right cost function to use with softmax. $C = -\sum_j t_j \log y_j$ where $t_j$ is the target value. thE STEEP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTEzNjQzNywxMDUyMzc0OTc4LC0xOT
-gxMDU3Njk0LC0yMjY1NjI0NDMsMjAyMDIzNzE3NSwtMTA3NTky
-NTU1OCwtNTkxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMT
-c1NzkwODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEz
-MjM5NzQsMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1NjkwLC
-0xMjUyMjUyNjk4LDkwNzgwNTU5MywyMTQ0NTg1MTc1LDMxODM3
-MTg5NV19
+eyJoaXN0b3J5IjpbLTUwNzI2ODAzNywtMzQ5MTM2NDM3LDEwNT
+IzNzQ5NzgsLTE5ODEwNTc2OTQsLTIyNjU2MjQ0MywyMDIwMjM3
+MTc1LC0xMDc1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0NTcsLT
+Y5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgx
+MzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MD
+AsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLDIxNDQ1
+ODUxNzVdfQ==
 -->
