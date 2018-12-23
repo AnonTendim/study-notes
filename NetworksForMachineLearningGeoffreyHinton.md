@@ -157,9 +157,9 @@ Want to automate the loop of designing features for a particular task and seeing
 		- don't use steepest descent?
 - Generalization issues: How do we ensure that the learned weights work well for cases we did not see during training? 
 	- problem of overfitting
-		- sampling error
+		- sampling error 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIyNjE3NDUsLTU5MTA1ODg3Nyw0ND
+eyJoaXN0b3J5IjpbLTExNDY0NjU1MzEsLTU5MTA1ODg3Nyw0ND
 AwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMTczMTQ2NDkz
 MiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4MDAwOTYsLT
 E1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OCw5MDc4MDU1
