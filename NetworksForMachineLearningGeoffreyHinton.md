@@ -171,9 +171,10 @@ Want to automate the loop of designing features for a particular task and seeing
 Given a large set of triples that come from some family trees, figure out the regularities
 [insert]
 
-#
+# Lecture 4.2 A brief diversion into cognitive science
+relationship between feature vector representation of concepts and representation of concepts via 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzA0MzQ4NiwyMDIwMjM3MTc1LC0xMD
+eyJoaXN0b3J5IjpbMTM3Nzk0MTM5MCwyMDIwMjM3MTc1LC0xMD
 c1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUwNTU1
 LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNCwtMT
 A1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2MDU2
