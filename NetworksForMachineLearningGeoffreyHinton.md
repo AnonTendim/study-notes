@@ -182,9 +182,9 @@ problems with squared error
 - If the desired output is 1 and the actual output is 0.00000001 (slope is basically 0), there is almost no gradient for a logistic unit to fix up the error
 - If we are trying to assign probabilities to mutually exclusive class labels, we know that the outputs should sum to 1, but we are depriving the networks of this knowledge
 
-We can force the output to represent a probability distribution across discrete alternatives: The output units in a softmax group use a non-local non-linearity: $y_i = \frac{e^{z_i}}{\sum_{j \in \text{group} }e^{z_j}}$ 
+We can force the output to represent a probability distribution across discrete alternatives: The output units in a softmax group use a non-local non-linearity: $y_i = \frac{e^{z_i}}{\sum_{j \in \text{group} }e^{z_j}}$  such that $\sum_i y_i = 1$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzU1MjEwNiwxMDUyMzc0OTc4LC0xOT
+eyJoaXN0b3J5IjpbLTg2MTE3ODAwOCwxMDUyMzc0OTc4LC0xOT
 gxMDU3Njk0LC0yMjY1NjI0NDMsMjAyMDIzNzE3NSwtMTA3NTky
 NTU1OCwtNTkxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1NSwxMT
 c1NzkwODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLTEwNTEz
