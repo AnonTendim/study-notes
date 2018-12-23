@@ -180,9 +180,11 @@ relationship between feature vector representation of concepts and representatio
 # Lecture 4.3 Another diversion: the softmax output function
 problems with squared error
 - If the desired output is 1 and the actual output is 0.00000001 (slope is basically 0), there is almost no gradient for a logistic unit to fix up the error
-- If  
+- If we are trying to assign probabilities to mutually exclusive class labels, we know that the outputs should sum to 1, but we are depriving the networks of this knowledge
+
+We can force the output to represent a probability distribution across discrete alternatives. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzAzMjQ0NiwtMTk4MTA1NzY5NCwtMj
+eyJoaXN0b3J5IjpbMTA1MjM3NDk3OCwtMTk4MTA1NzY5NCwtMj
 I2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NTgsLTU5MTA1
 ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMT
 czMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4
