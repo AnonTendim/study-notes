@@ -196,13 +196,16 @@ words can be predicted quite well without full understanding: Trigram method
 - Bengio's neural net for predicting the next word [insert]
 
 # Lecture 4.5 Ways to deal with large number of possible outputs in neuro-probabilistic language models
-
+[insert]
+Learning in the serial architecture
+- after computing the logit score for each candidate word, use all of the logits in a softmax to get word probabilities.
+- The difference between 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxMzAwMzEwLDMzNzQ4NTQxLC0xOTM1ND
-M1NjE1LC0xNTcwODY2OTcsLTM0OTEzNjQzNywxMDUyMzc0OTc4
-LC0xOTgxMDU3Njk0LC0yMjY1NjI0NDMsMjAyMDIzNzE3NSwtMT
-A3NTkyNTU1OCwtNTkxMDU4ODc3LDQ0MDAzNDU3LC02OTU1MDU1
-NSwxMTc1NzkwODY0LC0xNzMxNDY0OTMyLDEyNDg4MTM2MTQsLT
-EwNTEzMjM5NzQsMTExNjgwMDA5NiwtMTU2MzUxNTAwLDI2NjA1
-NjkwXX0=
+eyJoaXN0b3J5IjpbLTEyMzI4MzM5MDMsMzM3NDg1NDEsLTE5Mz
+U0MzU2MTUsLTE1NzA4NjY5NywtMzQ5MTM2NDM3LDEwNTIzNzQ5
+NzgsLTE5ODEwNTc2OTQsLTIyNjU2MjQ0MywyMDIwMjM3MTc1LC
+0xMDc1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUw
+NTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMTI0ODgxMzYxNC
+wtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYzNTE1MDAsMjY2
+MDU2OTBdfQ==
 -->
