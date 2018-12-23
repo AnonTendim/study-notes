@@ -162,12 +162,14 @@ Want to automate the loop of designing features for a particular task and seeing
 		- ways to reduce overfitting
 			- weight-decay (set a lot of weights 0)
 			- weight-sharing (many weights have the same values)
+			- early-stopping (stop once the performance gets worse on the fake test set)
+			- weight averaging (train many different neural networks )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzQwMzgzOSwtNTkxMDU4ODc3LDQ0MD
-AzNDU3LC02OTU1MDU1NSwxMTc1NzkwODY0LC0xNzMxNDY0OTMy
-LDEyNDg4MTM2MTQsLTEwNTEzMjM5NzQsMTExNjgwMDA5NiwtMT
-U2MzUxNTAwLDI2NjA1NjkwLC0xMjUyMjUyNjk4LDkwNzgwNTU5
-MywyMTQ0NTg1MTc1LDMxODM3MTg5NSwxNzcxODE1OTQsLTEyND
-QxMDgxMjksMjI1NzAyMjY0LDUyNjc3MjQ2OSwxOTMxMTY5MTg1
-XX0=
+eyJoaXN0b3J5IjpbNjU2NDg1NDEzLC01OTEwNTg4NzcsNDQwMD
+M0NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIs
+MTI0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNT
+YzNTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkz
+LDIxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0ND
+EwODEyOSwyMjU3MDIyNjQsNTI2NzcyNDY5LDE5MzExNjkxODVd
+fQ==
 -->
