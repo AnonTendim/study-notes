@@ -174,12 +174,13 @@ Given a large set of triples that come from some family trees, figure out the re
 # Lecture 4.2 A brief diversion into cognitive science
 relationship between feature vector representation of concepts and representation of concepts via their relations to other concepts
 - a neural net can use vectors of semantic features to implement a relational graph
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODEwNTc2OTQsLTIyNjU2MjQ0MywyMD
-IwMjM3MTc1LC0xMDc1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0
-NTcsLTY5NTUwNTU1LDExNzU3OTA4NjQsLTE3MzE0NjQ5MzIsMT
-I0ODgxMzYxNCwtMTA1MTMyMzk3NCwxMTE2ODAwMDk2LC0xNTYz
-NTE1MDAsMjY2MDU2OTAsLTEyNTIyNTI2OTgsOTA3ODA1NTkzLD
-IxNDQ1ODUxNzUsMzE4MzcxODk1LDE3NzE4MTU5NCwtMTI0NDEw
-ODEyOV19
+eyJoaXN0b3J5IjpbLTIwNDEyODgwMywtMTk4MTA1NzY5NCwtMj
+I2NTYyNDQzLDIwMjAyMzcxNzUsLTEwNzU5MjU1NTgsLTU5MTA1
+ODg3Nyw0NDAwMzQ1NywtNjk1NTA1NTUsMTE3NTc5MDg2NCwtMT
+czMTQ2NDkzMiwxMjQ4ODEzNjE0LC0xMDUxMzIzOTc0LDExMTY4
+MDAwOTYsLTE1NjM1MTUwMCwyNjYwNTY5MCwtMTI1MjI1MjY5OC
+w5MDc4MDU1OTMsMjE0NDU4NTE3NSwzMTgzNzE4OTUsMTc3MTgx
+NTk0XX0=
 -->
