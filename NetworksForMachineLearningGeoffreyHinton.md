@@ -199,9 +199,9 @@ words can be predicted quite well without full understanding: Trigram method
 [insert]
 Learning in the serial architecture
 - after computing the logit score for each candidate word, use all of the logits in a softmax to get word probabilities.
-- The difference between 
+- The difference between the word probabilities and their target probabilities gives cross-entropy error derivatives: the derivatives try to raise the score of the correct candidate and lower the score of its high-scoring rivals
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI4MzM5MDMsMzM3NDg1NDEsLTE5Mz
+eyJoaXN0b3J5IjpbLTE5NzY3MDMzNzAsMzM3NDg1NDEsLTE5Mz
 U0MzU2MTUsLTE1NzA4NjY5NywtMzQ5MTM2NDM3LDEwNTIzNzQ5
 NzgsLTE5ODEwNTc2OTQsLTIyNjU2MjQ0MywyMDIwMjM3MTc1LC
 0xMDc1OTI1NTU4LC01OTEwNTg4NzcsNDQwMDM0NTcsLTY5NTUw
